@@ -61,3 +61,16 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise'
 gem 'devise-bootstrap-views', '~> 1.0'
+gem 'iex-ruby-client'
+
+# client = IEX::Api::Client.new(
+#   publishable_token: 'Tpk_4f733bf8116141c2a76566eac561a328',
+#   secret_token: 'Tsk_f8ef6916fe514f50bd89593e654b7df4',
+#   endpoint: 'https://sandbox.iexapis.com/v1'
+# )
+
+# client = IEX::Api::Client.new(
+#   publishable_token: 'pk_29940a0d77c8480ab273cf108d2e183a',
+#   secret_token: 'sk_7beabf71586d49fea360b41056ce2f23',
+#   endpoint: 'https://cloud.iexapis.com/v1'
+# )
