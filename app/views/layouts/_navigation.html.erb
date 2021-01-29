@@ -29,7 +29,10 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+                <li class="nav-item user-name">
+                    <%= fa_icon 'user' %> <%= current_user.full_name %>
+                </li>
                 <li class="nav-item">
                     <%= link_to 'Log out', destroy_user_session_path, class: 'btn btn-danger mr-sm-2', method: :delete %>
                 </li>
